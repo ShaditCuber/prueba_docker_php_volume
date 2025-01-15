@@ -39,3 +39,8 @@ docker run -p 80:80 -d -v "$(pwd)/src:/var/www/html"   "nombre"
 ```
 docker exec -it "id" bash
 ```
+
+# Borrar imagen
+```
+docker image rm "id"
+```
